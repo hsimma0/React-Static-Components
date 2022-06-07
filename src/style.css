@@ -1,0 +1,52 @@
+.App {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin: 10%;
+    height: 75wh;
+    }
+    
+    .App {
+         grid-area: 1 / 1 / 6 / 6;
+         }
+
+    .Sidebar {
+         grid-area: 1 / 1 / 6 / 2;
+         background-color: aqua;
+         border-color: white;
+         text-align: center;
+     }
+
+    .Reviews { 
+        grid-area: 1 / 2 / 3 / 3; 
+        background-color: yellow;
+    }
+
+    .Rating { 
+        grid-area: 1 / 3 / 3 / 4;
+        background-color:lightgreen;
+     }
+
+    .Analysis { 
+        grid-area: 1 / 4 / 3 / 5;
+        background-color: darksalmon;
+     }
+
+    .Website { 
+        grid-area: 3 / 2 / 6 / 5;
+        background-color: red;
+        text-align: left;
+     }
+
+    #box { 
+        grid-area: 4 / 3 / 5 / 4;
+        background-color: greenyellow;
+        margin: 10%;
+        height: 120px;
+        text-align: center;
+     }
+
